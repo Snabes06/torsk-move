@@ -1,0 +1,5 @@
+[gd_resource type="PlaneMesh" format=3 uid="uid://c5bnpos3bny2j"]
+
+[resource]
+subdivide_width = 32
+subdivide_depth = 32

@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://bpufj2rmivw8k"]
+
+[node name="HubCamera" type="Camera3D"]
