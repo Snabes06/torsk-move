@@ -5,17 +5,23 @@ noise_type = 3
 frequency = 0.445
 
 [sub_resource type="NoiseTexture2D" id="NoiseTexture2D_6lyoe"]
-width = 117
+width = 57
+height = 327
 noise = SubResource("FastNoiseLite_gklyc")
 
 [resource]
-albedo_color = Color(0, 0.685637, 0.0997038, 1)
-metallic = 0.3
-metallic_specular = 0.4
+shading_mode = 2
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(2.40654e-07, 0.575533, 0.142821, 1)
+metallic_specular = 0.1
 roughness_texture = SubResource("NoiseTexture2D_6lyoe")
-heightmap_enabled = true
-heightmap_scale = -2.758
+heightmap_scale = 0.0
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
 subsurf_scatter_strength = 1.0
 refraction_enabled = true
-refraction_scale = -0.92
+refraction_scale = -0.9
 grow_amount = 0.703
+distance_fade_min_distance = 2.55
